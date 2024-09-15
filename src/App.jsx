@@ -1,7 +1,12 @@
 import React from "react";
+import TaskList from "./TaskList.jsx";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TaskList />
+    </div>
+  );
 };
 
 export default App;
