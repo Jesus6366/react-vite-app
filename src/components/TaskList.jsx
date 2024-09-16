@@ -10,7 +10,7 @@ const TaskList = () => {
   }
 
   return (
-    <div>
+    <div className="grid grid-cols-4">
       {tasks.map((task) => (
         <TaskCard key={task.id} task={task} />
       ))}
